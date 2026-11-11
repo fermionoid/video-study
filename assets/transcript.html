@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>示例｜团队如何交接工作？</title>
+<style>
+@page { size: A4; margin: 15mm 16mm; }
+body {
+  font: 12pt/1.72 "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif;
+  color: #203033;
+  max-width: 780px;
+  margin: 36px auto;
+  padding: 0 20px;
+}
+h1 { font-size: 25pt; line-height: 1.25; }
+h2 {
+  font-size: 16pt;
+  margin: 1.5em 0 .5em;
+  padding-bottom: .25em;
+  border-bottom: 1px solid #bdd3ce;
+  break-after: avoid;
+}
+p { margin: .65em 0; orphans: 2; widows: 2; }
+a, .speaker { color: #156758; }
+time, figcaption, .meta { color: #506c66; font-size: 9pt; }
+time, .speaker { margin-right: .65em; }
+time { white-space: nowrap; }
+.speaker, nav a { font-size: 10pt; }
+.speech { line-height: 1.85; }
+nav { background: #eef5f2; padding: 12px; }
+nav a { display: inline-block; margin: 0 12px 4px 0; }
+figure { margin: 1em 0; break-inside: avoid; }
+figure img {
+  display: block;
+  max-width: 100%;
+  max-height: 112mm;
+  width: auto;
+  height: auto;
+}
+figcaption { margin-top: .4em; }
+@media print {
+  body { margin: 0; padding: 0; max-width: none; }
+  nav { print-color-adjust: exact; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>团队如何交接工作？</h1>
+  <p class="meta">内部分享示例｜对话整理稿</p>
+  <p>以下为虚构示例，展示带时间戳的对话段落、章节目录和插图位置。</p>
+</header>
+<nav aria-label="目录">
+  <a href="#handoff">交接清单</a>
+  <a href="#questions">答疑</a>
+</nav>
+<main>
+  <section aria-labelledby="handoff">
+    <h2 id="handoff">交接清单</h2>
+    <p class="speech"><time datetime="PT42S">00:42</time><b class="speaker">主持人</b>我们先看实际例子。周五交接工作的时候，你会留下哪些信息？</p>
+    <p class="speech"><time datetime="PT48S">00:48</time><b class="speaker">分享者</b>我会写清楚现在做到哪一步、下一步由谁接手，以及对方需要在哪里查资料。</p>
+    <!-- Replace the sample image with the supplied slide for this turn. -->
+    <figure>
+      <img alt="示例幻灯片：进度、接手人、资料位置" width="740" height="220"
+        src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 740 220'%3E%3Crect width='740' height='220' fill='%23eef5f2'/%3E%3Ctext x='40' y='120' font-size='40' font-family='sans-serif' fill='%23203033'%3E%E8%BF%9B%E5%BA%A6%20%C2%B7%20%E6%8E%A5%E6%89%8B%E4%BA%BA%20%C2%B7%20%E8%B5%84%E6%96%99%E4%BD%8D%E7%BD%AE%3C/text%3E%3C/svg%3E">
+      <figcaption>幻灯片 · 交接时要留下的三项信息</figcaption>
+    </figure>
+  </section>
+  <section aria-labelledby="questions">
+    <h2 id="questions">答疑</h2>
+    <p class="speech"><time datetime="PT1M24S">01:24</time><b class="speaker">发言人待核</b>如果下一步还没定下来，交接时怎么写？</p>
+    <p class="speech"><time datetime="PT1M30S">01:30</time><b class="speaker">分享者</b>写清楚还缺什么信息，以及谁会跟进这个决定。</p>
+  </section>
+</main>
+</body>
+</html>
